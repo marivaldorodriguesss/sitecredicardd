@@ -1,0 +1,45 @@
+.menu ul li { 
+    background-color:rgb(0, 16, 238);
+    color:white;
+    float: left; 
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+    text-align: center; 
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.menu ul li:hover {
+background-color: red;
+
+}
+
+.menu ul{
+    padding: 0;
+}
+
+.menu ul ul {
+    display: none; 
+}
+
+.menu ul li:hover  > ul {
+    display: block;
+}
+
+.menu ul ul li:hover{
+    background-color: black;
+}
+
+.menu a { 
+    color: white;
+    text-decoration: none;
+
+}
+
+h1 { 
+    color: teal;
+    text-align: center;
+}
+
+
